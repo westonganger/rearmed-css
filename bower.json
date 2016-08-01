@@ -1,0 +1,24 @@
+{
+  "name": "rearmed-css",
+  "version": "1.0.0",
+  "description": "CSS Utility Classes",
+  "main": "./dist/rearmed.min.css",
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:westonganger/rearmed-css.git"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "utility class"
+  ],
+  "author": "Weston Ganger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/westonganger/rearmed-css/issues"
+  },
+  "homepage": "https://github.com/westonganger/rearmed-css",
+  "dependencies": {},
+  "devDependencies": {}
+}
