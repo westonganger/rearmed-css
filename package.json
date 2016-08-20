@@ -23,9 +23,9 @@
   "devDependencies": {
     "gulp": "*",
     "gulp-sass": "*",
-    "pump": "*",
-    "del": "*",
     "gulp-autoprefixer": "*",
-    "gulp-rename": "*"
+    "gulp-rename": "*",
+    "pump": "*",
+    "del": "*"
   }
 }
