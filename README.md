@@ -5,9 +5,11 @@ CSS Utility Classes for rapid development. All rules use `!important` to ensure 
 
 CSS class list:
 ```css
-.hide, .hidden
-.invisible, .hide-keep-space
+/* Images */
 .img-responsive
+
+
+/* Alignment */
 .table-text-center
 .text-left
 .text-center
@@ -17,6 +19,9 @@ CSS class list:
 .pull-right, .float-right
 .vcenter-wrapper
 .vcenter-wrapper .vcenter
+
+
+/* Font */
 .thin
 .bold
 .unbold
@@ -45,6 +50,9 @@ CSS class list:
 .font-30
 .font-40
 .font-50
+
+
+/* Spacing */
 .margin-vertical
 .margin-vertical2
 .margin-vertical3
@@ -126,6 +134,11 @@ CSS class list:
 .spacer-50
 .spacer-75
 .spacer-100
+
+
+/* Visibility */
+.hide, .hidden
+.invisible, .hide-keep-space
 .visible-xs
 .visible-sm
 .visible-md
@@ -136,7 +149,7 @@ CSS class list:
 .hidden-lg
 ```
 
-[See all available classes here](https://github.com/westonganger/rearmed-css/blob/master/src/rearmed.scss)
+[View full CSS file here](https://github.com/westonganger/rearmed-css/blob/master/src/rearmed.scss)
 
 # Install
 
