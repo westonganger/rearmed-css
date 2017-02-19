@@ -547,6 +547,9 @@
     th, td{ 
       display: table-cell !important;
     }
+    a, button, small, strong, span, input, label, select, textarea{
+      display: inline !important;
+    }
   }
 }
 
@@ -561,6 +564,9 @@
     }
     th, td{ 
       display: table-cell !important;
+    }
+    a, button, small, strong, span, input, label, select, textarea{
+      display: inline !important;
     }
   }
 }
@@ -577,6 +583,9 @@
     th, td{ 
       display: table-cell !important;
     }
+    a, button, small, strong, span, input, label, select, textarea{
+      display: inline !important;
+    }
   }
 }
 
@@ -592,9 +601,71 @@
     th, td{ 
       display: table-cell !important;
     }
+    a, button, small, strong, span, input, label, select, textarea{
+      display: inline !important;
+    }
   }
 }
 
+.visible-xs-inline {
+  @media (max-width: 767px) {
+    display: inline !important;
+    table{
+      display: table !important; 
+    }
+    tr{ 
+      display: table-row !important;
+    }
+    th, td{ 
+      display: table-cell !important;
+    }
+  }
+}
+
+.visible-sm-inline {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: inline !important;
+    table{
+      display: table !important; 
+    }
+    tr{ 
+      display: table-row !important;
+    }
+    th, td{ 
+      display: table-cell !important;
+    }
+  }
+}
+
+.visible-md-inline {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: inline !important;
+    table{
+      display: table !important; 
+    }
+    tr{ 
+      display: table-row !important;
+    }
+    th, td{ 
+      display: table-cell !important;
+    }
+  }
+}
+
+.visible-lg-inline {
+  @media (min-width: 1200px) {
+    display: inline !important;
+    table{
+      display: table !important; 
+    }
+    tr{ 
+      display: table-row !important;
+    }
+    th, td{ 
+      display: table-cell !important;
+    }
+  }
+}
 .hidden-xs {
   @media (max-width: 767px) {
     display: none !important;
