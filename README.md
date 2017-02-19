@@ -53,72 +53,84 @@ CSS class list:
 
 
 /* Spacing */
+.margin-vertical0
 .margin-vertical
 .margin-vertical2
 .margin-vertical3
 .margin-vertical4
 .margin-vertical5
 .margin-vertical6
+.margin-horizontal0
 .margin-horizontal
 .margin-horizontal2
 .margin-horizontal3
 .margin-horizontal4
 .margin-horizontal5
 .margin-horizontal6
+.margin-left0
 .margin-left
 .margin-left2
 .margin-left3
 .margin-left4
 .margin-left5
 .margin-left6
+.margin-top0
 .margin-top
 .margin-top2
 .margin-top3
 .margin-top4
 .margin-top5
 .margin-top6
-.margin-bottom1
+.margin-bottom0
+.margin-bottom
 .margin-bottom2
 .margin-bottom3
 .margin-bottom4
 .margin-bottom5
 .margin-bottom6
-.margin-right1
+.margin-right0
+.margin-right
 .margin-right2
 .margin-right3
 .margin-right4
 .margin-right5
 .margin-right6
+.padding-horizontal0
 .padding-horizontal
 .padding-horizontal2
 .padding-horizontal3
 .padding-horizontal4
 .padding-horizontal5
 .padding-horizontal6
+.padding-vertical0
 .padding-vertical
 .padding-vertical2
 .padding-vertical3
 .padding-vertical4
 .padding-vertical5
 .padding-vertical6
+.padding-top0
 .padding-top
 .padding-top2
 .padding-top3
 .padding-top4
 .padding-top5
 .padding-top6
+.padding-left0
 .padding-left
 .padding-left2
 .padding-left3
 .padding-left4
 .padding-left5
 .padding-left6
+.padding-right0
 .padding-right
 .padding-right2
 .padding-right3
 .padding-right4
 .padding-right5
 .padding-right6
+.padding-bottom0
 .padding-bottom
 .padding-bottom2
 .padding-bottom3
@@ -153,11 +165,13 @@ CSS class list:
 
 # Install
 
-#### Bower or NPM
+#### Yarn, NPM, Bower
 ```
-bower install rearmed-css
+yarn add rearmed-css
 
 npm install rearmed-css
+
+bower install rearmed-css
 ```
 
 #### Rails

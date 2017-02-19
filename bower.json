@@ -1,6 +1,6 @@
 {
   "name": "rearmed-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSS Utility Classes",
   "main": "./dist/rearmed.min.css",
   "directories": {},
