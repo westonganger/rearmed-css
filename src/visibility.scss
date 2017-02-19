@@ -1,0 +1,197 @@
+.hide, .hidden{
+  display: none !important;
+}
+
+.invisible, .hide-keep-space{
+  visibility: hidden !important;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+
+.visible-xs {
+  @media (max-width: 767px) {
+    display: block !important;
+
+    @at-root table#{&}{
+      display: table !important; 
+    }
+    @at-root tr#{&}{
+      display: table-row !important;
+    }
+    @at-root th#{&}, td#{&}{
+      display: table-cell !important;
+    }
+    @at-root a#{&}, button#{&}, strong#{&}, span#{&}, small#{&}, cite#{&}, input#{&}, label#{&}, select#{&}, textarea#{&} {
+      display: inline !important;
+    }
+  }
+}
+
+.visible-sm {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: block !important;
+
+    @at-root table#{&}{
+      display: table !important; 
+    }
+    @at-root tr#{&}{
+      display: table-row !important;
+    }
+    @at-root th#{&}, td#{&}{
+      display: table-cell !important;
+    }
+    @at-root a#{&}, button#{&}, strong#{&}, span#{&}, small#{&}, cite#{&}, input#{&}, label#{&}, select#{&}, textarea#{&} {
+      display: inline !important;
+    }
+  }
+}
+
+.visible-md {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: block !important;
+
+    @at-root table#{&}{
+      display: table !important; 
+    }
+    @at-root tr#{&}{
+      display: table-row !important;
+    }
+    @at-root th#{&}, td#{&}{
+      display: table-cell !important;
+    }
+    @at-root a#{&}, button#{&}, strong#{&}, span#{&}, small#{&}, cite#{&}, input#{&}, label#{&}, select#{&}, textarea#{&} {
+      display: inline !important;
+    }
+  }
+}
+
+.visible-lg {
+  @media (min-width: 1200px) {
+    display: block !important;
+
+    @at-root table#{&}{
+      display: table !important; 
+    }
+    @at-root tr#{&}{
+      display: table-row !important;
+    }
+    @at-root th#{&}, td#{&}{
+      display: table-cell !important;
+    }
+    @at-root a#{&}, button#{&}, strong#{&}, span#{&}, small#{&}, cite#{&}, input#{&}, label#{&}, select#{&}, textarea#{&} {
+      display: inline !important;
+    }
+  }
+}
+
+.visible-xs-block {
+  @media (max-width: 767px) {
+    display: block !important;
+  }
+}
+.visible-sm-block {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: block !important;
+  }
+}
+.visible-md-block {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: block !important;
+  }
+}
+.visible-lg-block {
+  @media (min-width: 1200px) {
+    display: block !important;
+  }
+}
+.visible-xs-inline {
+  @media (max-width: 767px) {
+    display: inline !important;
+  }
+}
+.visible-sm-inline {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: inline !important;
+  }
+}
+.visible-md-inline {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: inline !important;
+  }
+}
+.visible-lg-inline {
+  @media (min-width: 1200px) {
+    display: inline !important;
+  }
+}
+.visible-xs-inline-block {
+  @media (max-width: 767px) {
+    display: inline !important;
+  }
+}
+.visible-sm-inline-block {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: inline !important;
+  }
+}
+.visible-md-inline-block {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: inline !important;
+  }
+}
+.visible-lg-inline-block {
+  @media (min-width: 1200px) {
+    display: inline !important;
+  }
+}
+.hidden-xs {
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+.hidden-sm {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: none !important;
+  }
+}
+.hidden-md {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: none !important;
+  }
+}
+.hidden-lg {
+  @media (min-width: 1200px) {
+    display: none !important;
+  }
+}
+.visible-print {
+  display: none !important;
+
+  @media print {
+    display: block !important;
+
+    @at-root table#{&}{
+      display: table !important; 
+    }
+    @at-root tr#{&}{
+      display: table-row !important;
+    }
+    @at-root th#{&}, td#{&}{
+      display: table-cell !important;
+    }
+    @at-root a#{&}, button#{&}, strong#{&}, span#{&}, small#{&}, cite#{&}, input#{&}, label#{&}, select#{&}, textarea#{&} {
+      display: inline !important;
+    }
+  }
+}
+
+.hidden-print {
+  @media print {
+    display: none !important;
+  }
+}

@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     del = require('del');
 
 var paths = {
-  src: './src/*.scss',
+  src: './src/rearmed.scss',
   dist: './dist/'
 };
 
